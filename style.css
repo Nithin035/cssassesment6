@@ -1,0 +1,221 @@
+
+html{
+    background-image: url(./saharadesert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.logo{
+    position: relative;
+    left: 130px;
+}
+.sahara{
+    font-size: 85px;
+    color: white;
+    position: relative;
+    top: 305px;
+    left: 130px;
+}
+.para{
+    position: relative;
+    top: 300px;
+    left: 205px;
+}
+.explore{
+    background-color: white;
+    width: 185px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 25px;
+    position: relative;
+    top: 340px;
+    left:205px;
+}
+.home{
+    text-decoration-line: none;
+    color: white;
+    position: relative;
+    bottom: 200px;
+    left: 1000px;
+}
+.region{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 200px;
+    left: 1080px;
+}
+.about{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 200px;
+    left: 1160px;
+}
+.button{
+    position: relative;
+    bottom: 190px;
+    left: 1240px; 
+}
+img{
+    border-radius: 17px;
+    
+}
+
+.card1{
+    position: relative;
+    left: 850px;
+    bottom: 100px;
+    
+    
+}
+.card2{
+    position: relative;
+    left: 1130px;
+    bottom: 420px;
+}
+.card3{
+    position: relative;
+    left: 850px;
+    bottom: 430px;
+}
+.card4{
+    position: relative;
+    left: 1130px;
+    bottom: 750px;
+}
+
+
+
+.box1{
+    position: relative;
+    left: 870px;
+    bottom: 300px;
+    font-size: 13px;
+    color: white;
+}
+.box2{
+    position: relative;
+    left: 1150px;
+    bottom: 610px;
+    font-size: 13px;
+    color: white;
+}
+.box3{
+    position: relative;
+    left: 860px;
+    bottom: 630px;
+    font-size: 13px;
+    color: white;
+}
+
+.box4{
+    position: relative;
+    left: 1140px;
+    bottom: 950px;
+    font-size: 13px;
+    color: white;
+}
+
+.card1:hover{
+    transform: scaleY(1.1);
+    
+}
+.card2:hover{
+    transform: scaleY(1.1);
+    
+}
+.card3:hover{
+    transform: scaleY(1.1);
+    
+}.card4:hover{
+    transform: scaleY(1.1);
+    
+}
+
+  /* MOTO G4 */
+
+@media screen and (max-width:856px) {
+  
+    .logo{
+        position: relative;
+        left: 30px;
+    }
+
+    .flex-container{
+        display: inline-block;
+    }
+
+    .icon11{
+        position: relative;
+        left: 30px;
+        bottom: 300px;
+        color: white;
+    }
+    .sahara{
+        font-size: 30px;
+        position: relative;
+        left: 30px;
+        bottom: 600px;
+    }
+    .para{
+       position: relative;
+       left: 30px;
+       bottom: 350px; 
+    }
+    .explore{
+        position: relative;
+        left: 30px;
+        bottom: 80px;
+    }
+    .icon22{
+        position: relative;
+        right: 800px;
+        bottom: 50px;
+    }
+    .card1{
+        position: relative;
+        left: 80px;
+        top: 80px;
+        width: 500px;
+    }
+    .box1{
+        position: relative;
+        left: 90px;
+        bottom: 100px;
+    }
+    .card2{
+        position: relative;
+        left: 80px;
+        top: 50px;
+        width: 500px;
+    }
+    .box2{
+        position: relative;
+        left: 90px;
+        bottom: 180px;
+    }
+    .card3{
+        position: relative;
+        left: 90px;
+        bottom: -10px;
+        width: 500px;
+    }
+    .box3{
+        position: relative;
+        left: 100px;
+        bottom: 90px;
+    }
+    .card4{
+        position: relative;
+        left: 90px;
+        bottom: 5px;
+        width: 500px;
+    }
+    .box4{
+        position: relative;
+        left: 100px;
+        bottom: 130px;
+    }
+}
+    
